@@ -1,0 +1,80 @@
+body {
+  background-image: url(immagini/background.jpg);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Classe .contenuto per background semitrasparente */
+.contenuto {
+  background-color: rgba(0,0,0,0.50);
+  border-radius: 15px;
+  margin: auto;
+  margin-top:1.5%;
+  padding: 5%;
+  width: 53%
+}
+
+header, .pulsanti {
+  text-align: center;
+}
+
+/* Motto del sito */
+header h1 {
+  color: rgb(0,221,0);
+  font-size: 28px;
+  line-height: 0.2;
+  font-weight: bold;
+}
+
+.logo {
+  width: 220px;
+}
+
+/* Pulsanti per la prenotazione */
+.pulsanti {
+  background-color: rgb(0,221,0);
+  padding: 1%;
+}
+
+/* Testo informazioni monopattini */
+.opzioni-disponibili {
+  padding-top: 2%;
+  font-size: 14px;
+  color: white;
+}
+
+/* Testo nome monopattini */
+.opzioni-disponibili h2 {
+  display: inline-block;
+  line-height: 0;
+  font-size: 20px;
+}
+
+/* Distanza tra i blocchi con classe .monopattino */
+.monopattino {
+  padding-bottom: 2.5%;
+}
+
+/* Barre con stato di carica monopattini */
+.barra1, .barra2, .barra3 {
+  padding: 14px;
+  border-radius: 5px;
+}
+
+/* Barra con stato di carica del monopattino di Gino22 */
+.barra1 {
+  background-color: rgb(245,180,83);
+  width: 31%;
+}
+
+/* Barra con stato di carica del monopattino di Mike24 */
+.barra2 {
+  background-color: rgb(30,195,30);
+  width: 55%;
+}
+
+/* Barra con stato di carica del monopattino di Fede154 */
+.barra3 {
+  background-color: rgb(190,65,65);
+  width: 12%;
+}
